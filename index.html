@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <body bgcolor="green">
-        <h1> <center>
-            Charity Finder
-            </center>
+    <style> 
+    body {
+        background-color: lightgreen;
+    }
+    .title {
+        position: absolute;
+        top: 0;
+        left: 8em;
+        text-align: center;
+        font-size: 60px;
+        
+    }
+    div {
+        color: Black;
+        font-size: 20px;
+        background-color: white;
+        height:50px;
+        width:200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login {
+        position: absolute;
+        left: 20em;
+        top: 18em;
+    }
+    .signup {
+        position: absolute;
+        left: 37em;
+        top: 18em;
+    }
+    .charity {
+        position: absolute;
+        left: 28.5em;
+        top: 23em;
+    }
+    .info {
+        position: absolute;
+        left: 36.5em;
+        top: 14em;
+    }
+    .forgot {
+        position: absolute;
+        left: 36.5em;
+        top: 18em;
+    }
+    </style>
+    <body>
+        <h1 class = "title">
+            <p>Charity Finder</p>
         </h1>
-        <button type="button">Login</button>
-        <button type="button">Sign Up</button>
+
+        <a href="use_main_page.html">
+        <div class = "login">
+            <p>
+            Login
+            </p>
+        </div>
+        </a>
+
+        <a href="create_user_profile.html">
+        <div class="signup">
+            <p>Sign Up</p>
+        </div>
+        </a>
+
+        <a href="create_charity_profile.html">
+        <div class = "charity">
+            <p>Create A Charity</p>
+        </div>
+        </a>
+
+        <a href="forgot_password.html">
+            <p class="forgot">Forgot Password?</p>
+        </a>
+
+        <form class = "info">
+            <label>Username:</label> <br>
+            <input type="text"> <br>
+            <label>Password:</label> <br>
+            <input type="text">
+        </form>
+
     </body>
 </html>
 
