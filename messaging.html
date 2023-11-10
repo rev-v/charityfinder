@@ -7,7 +7,7 @@
         h2 {
             position:absolute;
             top:7em;
-            left:4em;
+            left:11em;
         }
         div { 
             color: black
@@ -19,10 +19,10 @@
         }
         .user_profile_icon {
             position:absolute;
-            top:7em;
-            left:3em;
-            height: 100px;
-            width: 100px;
+            top:11em;
+            left:13em;
+            height: 50px;
+            width: 50px;
         }
         .return_main {
             background-color: white;
@@ -35,14 +35,20 @@
             right:10em;
         }
         .send_message {
-            background-color: white;
             position: absolute;
-            text-align: center;
             vertical-align: middle;
-            height:50px;
-            width:200px;
-            top:31em;
-            right:10em;
+            bottom:6.8em;
+            left:13em;
+        }
+        textarea{
+            resize: none;
+        }
+        .chat_box {
+            position: absolute;
+            vertical-align: middle;
+            top:15em;
+            left:13em;
+            resize: none;
         }
     </style>
 
@@ -50,14 +56,23 @@
         <h1>
             Messaging
         </h1>
-        <img class ="user_profile_icon src="user_profile_icon.png">
+        <img class ="user_profile_icon" src="user_profile_icon.png">
         <h2>
             charity_friend123
         </h2>
         <a href="use_main_page.html">
-        <div class = "return_main">
-            <p> Return To Main </p>
-        </div>
+            <div class = "return_main">
+                <p> Return To Main </p>
+            </div>
         </a>
+        <div class = "chat_box">
+            <label for="chat_box">Chat with charity_friend123:</label>
+            <br>
+            <textarea readonly id="chat_box" name="chat_box" rows="20" cols="150">charity_friend123: Hello!</textarea>
+        </div>    
+        <div class = "send_message">
+            <input type="send_message" id="send_message" name="send_message" size=155 placeholder="Enter message here">
+            <input type="submit" value="Send">
+        </div>
     </body>
 </html>
