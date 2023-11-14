@@ -1,4 +1,204 @@
 <!DOCTYPE html>
 <html>
-    
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        h1 { 
+            position: absolute;
+            top: 0;
+            left: 10em;
+            text-align: center;
+            font-size: 60px;
+        }
+        h2 {
+            position:absolute;
+            top:20em;
+            left:21.5em;
+            font-size: 10px;
+        }
+        h3 {
+            position:absolute;
+            top:24.6em;
+            left:21.5em;
+            font-size: 10px;
+        }
+        h4 {
+            position:absolute;
+            top:29em;
+            left:21.5em;
+            font-size: 10px;
+        }
+        h5 {
+            position:absolute;
+            top:33.6em;
+            left:21.5em;
+            font-size: 10px;
+        }
+        div { 
+            color: black
+        } /* so this makes everything in the div boxes have black text color */
+        .user_profile_icon1 {
+            position:absolute;
+            top:12.7em;
+            left:12em;
+            height: 20px;
+            width: 20px;
+        }
+        .user_profile_icon2 {
+            position:absolute;
+            top:15.7em;
+            left:12em;
+            height: 20px;
+            width: 20px;
+        }
+        .user_profile_icon3 {
+            position:absolute;
+            top:18.7em;
+            left:12em;
+            height: 20px;
+            width: 20px;
+        }
+        .user_profile_icon4 {
+            position:absolute;
+            top:21.7em;
+            left:12em;
+            height: 20px;
+            width: 20px;
+        }
+        .chat_icon1 {
+            position:absolute;
+            top:12.7em;
+            left:18.4em;
+            height: 20px;
+            width: 20px;
+        }
+        .chat_icon2 {
+            position:absolute;
+            top:15.7em;
+            left:19.15em;
+            height: 20px;
+            width: 20px;
+        }
+        .chat_icon3 {
+            position:absolute;
+            top:18.7em;
+            left:17.5em;
+            height: 20px;
+            width: 20px;
+        }
+        .chat_icon4 {
+            position:absolute;
+            top:21.7em;
+            left:18.85em;
+            height: 20px;
+            width: 20px;
+        }
+        .block_icon1 {
+            position:absolute;
+            top:12.7em;
+            left:19.7em;
+            height: 20px;
+            width: 20px;
+        }
+        .block_icon2 {
+            position:absolute;
+            top:15.7em;
+            left:20.45em;
+            height: 20px;
+            width: 20px;
+        }
+        .block_icon3 {
+            position:absolute;
+            top:18.7em;
+            left:18.8em;
+            height: 20px;
+            width: 20px;
+        }
+        .block_icon4 {
+            position:absolute;
+            top:21.7em;
+            left:20.15em;
+            height: 20px;
+            width: 20px;
+        }
+        .return_main {
+            background-color: white;
+            position: absolute;
+            text-align: center;
+            vertical-align: middle;
+            height:50px;
+            width:200px;
+            bottom:3em;
+            right:10em;
+        }
+        .search_user {
+            position: absolute;
+            vertical-align: middle;
+            top:8em;
+            left:11em;
+        }
+        textarea{
+            resize: none;
+        }
+        .friends_list {
+            position: absolute;
+            vertical-align: middle;
+            top:12em;
+            left:11em;
+            resize: none;
+        }
+    </style>
+
+    <body>
+        <h1>
+            Friends List
+        </h1>
+        
+        <div class = "search_user">
+            <input type="search_user" id="search_user" name="search_user" size=100 placeholder="Enter username here">
+            <input type="submit" value="Send">
+        </div>
+        
+        <div class = "friends_list">
+            <textarea readonly id="chat_box" name="chat_box" rows="30" cols="100"></textarea>
+        </div>
+        
+        <img class = "user_profile_icon1" src="user_profile_icon.png">
+        <h2>
+            charity_friend123
+        </h2>
+        <a href="messaging.html">
+            <img class = "chat_icon1" src="chat_icon.png">
+        </a>
+        <img class = "block_icon1" src="block_icon.png">
+        
+        <img class ="user_profile_icon2" src="user_profile_icon.png">
+        <h3>
+            volunteeringLover25
+        </h3>
+        <img class = "chat_icon2" src="chat_icon.png">
+        <img class = "block_icon2" src="block_icon.png">
+            
+        <img class ="user_profile_icon3" src="user_profile_icon.png">
+        <h4>
+            i_love_helping
+        </h4>
+        <img class = "chat_icon3" src="chat_icon.png">
+        <img class = "block_icon3" src="block_icon.png">
+
+        <img class ="user_profile_icon4" src="user_profile_icon.png">
+        <h5>
+            helpfulIndividual99
+        </h5>
+        <img class = "chat_icon4" src="chat_icon.png">
+        <img class = "block_icon4" src="block_icon.png">
+
+        <a href="use_main_page.html">
+            <div class = "return_main">
+                <p> Return To Main </p>
+            </div>
+        </a> 
+        
+    </body>
 </html>
