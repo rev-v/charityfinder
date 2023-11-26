@@ -1,4 +1,77 @@
 <!DOCTYPE html>
 <html>
-    
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        .Distance {
+            position: absolute;
+            top: 5em;
+
+        }
+        .Tags {
+            position: absolute;
+            top: 5em;
+            left: 20em;
+        }
+        .Type {
+            position: absolute;
+            top: 5em;
+            left: 40em;
+        }
+        .search {
+            position: absolute;
+            top: 8em;
+            background-color: white;
+            width: 600px;
+            height: 300px;
+        }
+        .searchtext {
+            position: relative;
+            top: 5px;
+            left: 20px;
+        }
+        .return_main {
+            background-color: white;
+            position: absolute;
+            text-align: center;
+            vertical-align: middle;
+            height:50px;
+            width:200px;
+            bottom:3em;
+            right:10em;
+        }
+    </style>
+    <body>
+        <h1 class="title">
+            Charity Search:
+        </h1>
+        <form class = "Distance">
+            <label>Distance:</label>
+            <input type="text"> <br>
+        </form>
+        <form class = "Tags">
+            <label>Tags:</label>
+            <input type="text"> <br>
+        </form>
+        <form class = "Type">
+            <label>Type:</label>
+            <input type="text"> <br>
+        </form>
+        <div class = "search">
+            <p class = 'searchtext'>Search for a Charity</p>
+            <p class = 'searchtext'>Recommended Charities Near You: </p>
+            <p class = 'searchtext'> HUGS Foundation Inc. </p>
+            <p class = 'searchtext'> Animal Service League </p>
+            <p class = 'searchtext'> New 2 U Rescue </p>
+            <p class = 'searchtext'> NextCorps </p>
+            <p class = 'searchtext'> Leadership Rochester </p>
+            <a href="charity_hub_page.html"> <p class = 'searchtext'> Generic Charity </p> </a>
+        </div>
+        <a href="use_main_page.html">
+            <div class = "return_main">
+                <p> Return To Main </p>
+            </div>
+        </a> 
+    </body>
 </html>
