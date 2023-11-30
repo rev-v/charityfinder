@@ -1,4 +1,72 @@
 <!DOCTYPE html>
 <html>
-    
+    <style>
+        
+        body {
+            background-color: lightgreen;
+        }
+        .return_main {
+            background-color: white;
+            position: absolute;
+            text-align: center;
+            vertical-align: middle;
+            height:50px;
+            width:200px;
+            bottom:3em;
+            right:10em;
+        }
+        .add {
+            background-color: white;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            vertical-align: middle;
+            position: absolute;
+            top: 7em;
+            left: 2em;
+
+
+        }
+        .remove {
+            background-color: white;
+            height: 50px;
+            width: 200px;
+            text-align: center;
+            vertical-align: middle;
+            position: absolute;
+            top: 7em;
+            left: 15em;
+
+
+        }
+
+    </style>
+
+    <h1>
+        Add or Remove Admin Account
+    </h1>
+
+
+    <div class = "add_remove">
+        <label for="add_remove">Name of Account To Add or Remove:</label>
+        <input type="text" id="password" name="password" size=50 placeholder="Enter Account Name">
+    </div>
+
+    <a href = "add_remove_admin.html">
+    <div class="remove">
+        <p>Remove Account</p>
+    </div>
+    </a>
+
+    <a href = "add_remove_admin.html">
+    <div class = "add">
+        <p>Add Account</p>
+    </div>
+    </a>
+
+    <a href="charity_main_page.html">
+        <div class = "return_main">
+            <p> Return To Main </p>
+        </div>
+    </a> 
 </html>
