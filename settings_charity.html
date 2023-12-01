@@ -2,9 +2,6 @@
 <html>
 
 
-
-
-
     <style>
          body {
         background-color: lightgreen;
@@ -19,7 +16,7 @@
         bottom:3em;
         right:10em;
     }
-        .change_username{
+        .change_name_of_charity{
             position: absolute;
             vertical-align: left;
             top:8em;
@@ -54,6 +51,13 @@
             left:11em;
         }
 
+        .update_nonprofit_tax_id{
+            position: absolute;
+            vertical-align: left;
+            top:28em;
+            left:11em;
+        }
+
 
 
 
@@ -65,9 +69,9 @@
         <h1 class = "title">
             <p>Settings for Charity</p>
         </h1>
-            <div class = "change_username">
-                <label for="change_username">Change Username:</label>
-                <input type="text" id="change_username" name="change_username" size="50" placeholder="Enter new username here">
+            <div class = "change_name_of_charity">
+                <label for="change_name_of_charity">Change Name of Charity:</label>
+                <input type="text" id="change_name_of_charity" name="change_name_of_charity" size="50" placeholder="Enter new charity name here">
             </div>
 
             <div class = "change_password">
@@ -89,13 +93,18 @@
                 <label for="update_address">Update Address:</label>
                 <input type="text" id="update_address" name="update_address" size="50" placeholder="Enter new address here">
             </div>
+
+            <div class = "update_nonprofit_tax_id">
+                <label for="update_nonprofit_tax_id">Update Nonprofit Tax ID:</label>
+                <input type="text" id="update_nonprofit_tax_id" name="update_nonprofit_tax_id" size="50" placeholder="Enter new nonprofit tax ID here">
+            </div>
      
     </body>
 
 
 
 
-    <a href="use_main_page.html">
+    <a href="charity_main_page.html">
         <div class = "return_main">
             <p> Return To Main </p>
         </div>

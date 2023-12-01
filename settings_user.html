@@ -1,4 +1,100 @@
 <!DOCTYPE html>
 <html>
     
+<style>
+    body {
+   background-color: lightgreen;
+}
+   .return_main {
+   background-color: white;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   height:50px;
+   width:200px;
+   bottom:3em;
+   right:10em;
+}
+   .change_username{
+       position: absolute;
+       vertical-align: left;
+       top:8em;
+       left:11em;
+   }
+
+   .change_password{
+       position: absolute;
+       vertical-align: left;
+       top:12em;
+       left:11em;
+   }
+
+   .update_email{
+       position: absolute;
+       vertical-align: left;
+       top:16em;
+       left:11em;
+   }
+
+   .update_phone_number{
+       position: absolute;
+       vertical-align: left;
+       top:20em;
+       left:11em;
+   }
+
+   .update_address{
+       position: absolute;
+       vertical-align: left;
+       top:24em;
+       left:11em;
+   }
+
+
+
+
+
+
+</style>
+
+<body>
+   <h1 class = "title">
+       <p>Settings for User</p>
+   </h1>
+       <div class = "change_username">
+           <label for="change_username">Change Username:</label>
+           <input type="text" id="change_username" name="change_username" size="50" placeholder="Enter new username here">
+       </div>
+
+       <div class = "change_password">
+           <label for="change_password">Change Password:</label>
+           <input type="text" id="change_password" name="change_password" size="50" placeholder="Enter new password here">
+       </div>
+       
+       <div class = "update_email">
+           <label for="update_email">Update Email:</label>
+           <input type="text" id="update_email" name="update_email" size="50" placeholder="Enter new email here">
+       </div>
+
+       <div class = "update_phone_number">
+           <label for="update_phone_number">Update Phone Number:</label>
+           <input type="text" id="update_phone_number" name="update_phone_number" size="50" placeholder="Enter new phone number here">
+       </div>
+
+       <div class = "update_address">
+           <label for="update_address">Update Address:</label>
+           <input type="text" id="update_address" name="update_address" size="50" placeholder="Enter new address here">
+       </div>
+
+</body>
+
+
+
+
+<a href="use_main_page.html">
+   <div class = "return_main">
+       <p> Return To Main </p>
+   </div>
+</a> 
+
 </html>
